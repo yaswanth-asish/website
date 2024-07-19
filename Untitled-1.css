@@ -1,0 +1,30 @@
+.header {
+    background-color: rgba(173, 202, 181, 0.283);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    font-size: 20px;
+   box-shadow: 0 20px 50px rgb(10, 9, 7);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logo h1 {
+    margin: 0 auto; 
+    text-align: c; 
+}
+
+.header button {
+background-color: rgba(102, 177, 242, 0.333);
+}
+
+.header button:hover
+{
+   background-color: rgb(107, 107, 178);
+   color: aliceblue;
+   font-weight: bold;
+}
